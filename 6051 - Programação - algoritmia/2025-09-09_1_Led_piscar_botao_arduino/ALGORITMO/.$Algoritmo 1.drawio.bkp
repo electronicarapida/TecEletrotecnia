@@ -1,0 +1,79 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Página-1" id="RdAOYIao0m0nIeAQQOCn">
+    <mxGraphModel dx="498" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="g-vino6VFtvDorAYjupd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g-vino6VFtvDorAYjupd-1" target="g-vino6VFtvDorAYjupd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g-vino6VFtvDorAYjupd-1" value="Início" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g-vino6VFtvDorAYjupd-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g-vino6VFtvDorAYjupd-2" target="g-vino6VFtvDorAYjupd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g-vino6VFtvDorAYjupd-2" value="&lt;div&gt;Configurar o pino 2 como entrada (para o botão)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g-vino6VFtvDorAYjupd-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g-vino6VFtvDorAYjupd-3" target="g-vino6VFtvDorAYjupd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g-vino6VFtvDorAYjupd-3" value="Configurar o&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;pino 13 como saída (para o LED)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g-vino6VFtvDorAYjupd-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g-vino6VFtvDorAYjupd-4" target="g-vino6VFtvDorAYjupd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g-vino6VFtvDorAYjupd-4" value="Repetir sempre" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329.5" y="360" width="169" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g-vino6VFtvDorAYjupd-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g-vino6VFtvDorAYjupd-5" target="g-vino6VFtvDorAYjupd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g-vino6VFtvDorAYjupd-5" value="&lt;div&gt;Ler estado do botão do pino 2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g-vino6VFtvDorAYjupd-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g-vino6VFtvDorAYjupd-7" target="g-vino6VFtvDorAYjupd-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g-vino6VFtvDorAYjupd-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g-vino6VFtvDorAYjupd-7" target="g-vino6VFtvDorAYjupd-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g-vino6VFtvDorAYjupd-7" value="&lt;div&gt;Se o&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;botão&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;estiver pressionado (com valor alto)&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="585" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g-vino6VFtvDorAYjupd-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g-vino6VFtvDorAYjupd-8" target="g-vino6VFtvDorAYjupd-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="414" y="780" />
+              <mxPoint x="280" y="780" />
+              <mxPoint x="280" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g-vino6VFtvDorAYjupd-8" value="&lt;div&gt;Desligar LED do pino 13 (com valor baixo)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g-vino6VFtvDorAYjupd-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g-vino6VFtvDorAYjupd-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g-vino6VFtvDorAYjupd-9" value="Ligar LED do pino 13 (com valor alto)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="595" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g-vino6VFtvDorAYjupd-21" value="Se não" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="595" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g-vino6VFtvDorAYjupd-22" value="Se sim" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="665" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

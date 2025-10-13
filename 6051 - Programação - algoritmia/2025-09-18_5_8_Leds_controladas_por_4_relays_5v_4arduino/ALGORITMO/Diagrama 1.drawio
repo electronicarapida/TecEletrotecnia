@@ -1,0 +1,119 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Página-1" id="lgsfylnA9JrC5za6dz95">
+    <mxGraphModel dx="628" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7GB0SN49nU3vowdlAvA3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7GB0SN49nU3vowdlAvA3-1" target="7GB0SN49nU3vowdlAvA3-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7GB0SN49nU3vowdlAvA3-1" value="Início" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7GB0SN49nU3vowdlAvA3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7GB0SN49nU3vowdlAvA3-2" target="7GB0SN49nU3vowdlAvA3-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7GB0SN49nU3vowdlAvA3-2" value="&lt;div&gt;Configurar pino 2 como saíd do relé 1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7GB0SN49nU3vowdlAvA3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7GB0SN49nU3vowdlAvA3-4" target="7GB0SN49nU3vowdlAvA3-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7GB0SN49nU3vowdlAvA3-4" value="Configurar pino 3 como saíd do relé 2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SRnU4A0bJ5pmF0i87g_e-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7GB0SN49nU3vowdlAvA3-5" target="SRnU4A0bJ5pmF0i87g_e-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7GB0SN49nU3vowdlAvA3-5" value="Configurar pino 4 como saíd do relé 3" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7a_tcJB_ISBaQT_1QwqY-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7a_tcJB_ISBaQT_1QwqY-5" target="7a_tcJB_ISBaQT_1QwqY-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7a_tcJB_ISBaQT_1QwqY-5" value="Repetir&lt;div&gt;sempre&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7a_tcJB_ISBaQT_1QwqY-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7a_tcJB_ISBaQT_1QwqY-7" target="7a_tcJB_ISBaQT_1QwqY-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7a_tcJB_ISBaQT_1QwqY-7" value="&lt;div&gt;Ativar relé 2 com sinal alto&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7a_tcJB_ISBaQT_1QwqY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7a_tcJB_ISBaQT_1QwqY-8" target="7a_tcJB_ISBaQT_1QwqY-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7a_tcJB_ISBaQT_1QwqY-8" value="Ativar relé 3 com sinal alto" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7a_tcJB_ISBaQT_1QwqY-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7a_tcJB_ISBaQT_1QwqY-9" target="7a_tcJB_ISBaQT_1QwqY-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7a_tcJB_ISBaQT_1QwqY-9" value="Ativar relé 4 com sinal alto" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7a_tcJB_ISBaQT_1QwqY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7a_tcJB_ISBaQT_1QwqY-10" target="7a_tcJB_ISBaQT_1QwqY-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7a_tcJB_ISBaQT_1QwqY-10" value="Ativar relé 5 com sinal alto" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SRnU4A0bJ5pmF0i87g_e-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7a_tcJB_ISBaQT_1QwqY-11" target="SRnU4A0bJ5pmF0i87g_e-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7a_tcJB_ISBaQT_1QwqY-11" value="Esperar 1000 ms" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IGNxV1C5YzDP-3c1ylNG-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="7a_tcJB_ISBaQT_1QwqY-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="1660" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="320" y="1660" />
+              <mxPoint x="280" y="1660" />
+              <mxPoint x="280" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7a_tcJB_ISBaQT_1QwqY-21" value="Fim" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="1680" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SRnU4A0bJ5pmF0i87g_e-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SRnU4A0bJ5pmF0i87g_e-1" target="7a_tcJB_ISBaQT_1QwqY-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SRnU4A0bJ5pmF0i87g_e-1" value="Configurar pino 5 como saíd do relé 4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SRnU4A0bJ5pmF0i87g_e-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SRnU4A0bJ5pmF0i87g_e-5" target="SRnU4A0bJ5pmF0i87g_e-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SRnU4A0bJ5pmF0i87g_e-5" value="&lt;div&gt;Desativar relé 2 com sinal alto&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SRnU4A0bJ5pmF0i87g_e-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SRnU4A0bJ5pmF0i87g_e-7" target="SRnU4A0bJ5pmF0i87g_e-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SRnU4A0bJ5pmF0i87g_e-7" value="Desativar relé 3 com sinal alto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SRnU4A0bJ5pmF0i87g_e-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SRnU4A0bJ5pmF0i87g_e-9" target="SRnU4A0bJ5pmF0i87g_e-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SRnU4A0bJ5pmF0i87g_e-9" value="Desativar relé 4 com sinal alto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SRnU4A0bJ5pmF0i87g_e-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SRnU4A0bJ5pmF0i87g_e-11" target="SRnU4A0bJ5pmF0i87g_e-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SRnU4A0bJ5pmF0i87g_e-11" value="Desativar relé 5 com sinal alto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SRnU4A0bJ5pmF0i87g_e-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SRnU4A0bJ5pmF0i87g_e-12" target="7a_tcJB_ISBaQT_1QwqY-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SRnU4A0bJ5pmF0i87g_e-12" value="Esperar 1000 ms" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1580" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
