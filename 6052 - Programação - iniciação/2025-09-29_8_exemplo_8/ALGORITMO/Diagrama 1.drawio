@@ -1,0 +1,231 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Página-1" id="2inrTYP_aldYuKU34dbg">
+    <mxGraphModel dx="1327" dy="1822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a_Pjl2reFtKb62zF3UzW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="a_Pjl2reFtKb62zF3UzW-1" target="a_Pjl2reFtKb62zF3UzW-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_Pjl2reFtKb62zF3UzW-1" value="Início" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="353" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a_Pjl2reFtKb62zF3UzW-2" target="f52dHtj3PyXfD_3ZsaxT-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_Pjl2reFtKb62zF3UzW-2" value="Definir variáveis do BAUD_RATE = 9600, pins dos botoes, dos leds e posicao" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="353" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a_Pjl2reFtKb62zF3UzW-4" target="a_Pjl2reFtKb62zF3UzW-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_Pjl2reFtKb62zF3UzW-4" value="Inicializar monitor serial com valor da variável BAUD_RATE, botoes como entrada, leds como saida e&lt;div&gt;chamar função mostrardisplay()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="353" y="1520" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a_Pjl2reFtKb62zF3UzW-7" target="f52dHtj3PyXfD_3ZsaxT-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_Pjl2reFtKb62zF3UzW-7" value="Repetir sempre" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354.5" y="1690" width="117" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a_Pjl2reFtKb62zF3UzW-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="a_Pjl2reFtKb62zF3UzW-9" target="a_Pjl2reFtKb62zF3UzW-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_Pjl2reFtKb62zF3UzW-9" value="Se o&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;botão&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;da&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;esquerda&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;estiver pressionado&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;e a posicao&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;for maior&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;que 0&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="336.75" y="1910" width="152.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="a_Pjl2reFtKb62zF3UzW-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="a_Pjl2reFtKb62zF3UzW-14" target="a_Pjl2reFtKb62zF3UzW-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_Pjl2reFtKb62zF3UzW-14" value="decrementar posicao 1 numero" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="353" y="2080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a_Pjl2reFtKb62zF3UzW-15" target="f52dHtj3PyXfD_3ZsaxT-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_Pjl2reFtKb62zF3UzW-15" value="chamar função piscarLEDesquerda();" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="353" y="2180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="otuZY_AYLzR0uywKyyOZ-1" target="f52dHtj3PyXfD_3ZsaxT-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="otuZY_AYLzR0uywKyyOZ-1" value="Definir delay de&lt;div&gt;500 ms&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="2380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oQ9oZNCb9e3Im2G-h_cm-2" value="verdadeiro" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="415" y="2040" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="f52dHtj3PyXfD_3ZsaxT-1" target="f52dHtj3PyXfD_3ZsaxT-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f52dHtj3PyXfD_3ZsaxT-1" target="f52dHtj3PyXfD_3ZsaxT-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-1" value="Definir função mostrardisplay()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f52dHtj3PyXfD_3ZsaxT-2" target="f52dHtj3PyXfD_3ZsaxT-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-2" value="Imprime no monitor serial representação gráfica &quot;[&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f52dHtj3PyXfD_3ZsaxT-5" target="f52dHtj3PyXfD_3ZsaxT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-5" value="Ciclo de&lt;div&gt;verificação&lt;/div&gt;&lt;div&gt;de&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;valores com&lt;/span&gt;&lt;/div&gt;&lt;div&gt;valor i até&lt;/div&gt;&lt;div&gt;20&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="360" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f52dHtj3PyXfD_3ZsaxT-8" target="f52dHtj3PyXfD_3ZsaxT-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f52dHtj3PyXfD_3ZsaxT-8" target="f52dHtj3PyXfD_3ZsaxT-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-8" value="Se i&lt;div&gt;for igual à posicao&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="505" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f52dHtj3PyXfD_3ZsaxT-10" target="f52dHtj3PyXfD_3ZsaxT-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-10" value="Imprime no monitor serial representação gráfica &quot;O&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f52dHtj3PyXfD_3ZsaxT-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="740" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-11" value="Imprime no monitor serial representação gráfica &quot;_&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-14" value="Se sim" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-15" value="Se não" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f52dHtj3PyXfD_3ZsaxT-16" target="f52dHtj3PyXfD_3ZsaxT-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-16" value="Imprime no monitor serial representação gráfica &quot;] Posição: &quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="f52dHtj3PyXfD_3ZsaxT-17" target="f52dHtj3PyXfD_3ZsaxT-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-17" value="Imprime no monitor serial valor da variável posicao" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="f52dHtj3PyXfD_3ZsaxT-22" target="f52dHtj3PyXfD_3ZsaxT-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f52dHtj3PyXfD_3ZsaxT-22" target="f52dHtj3PyXfD_3ZsaxT-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-22" value="Definir função piscarLEDesquerda()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f52dHtj3PyXfD_3ZsaxT-24" target="f52dHtj3PyXfD_3ZsaxT-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-24" value="Ligar led esquerda" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f52dHtj3PyXfD_3ZsaxT-25" target="f52dHtj3PyXfD_3ZsaxT-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-25" value="Definir delay de 100 ms" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="f52dHtj3PyXfD_3ZsaxT-26" target="f52dHtj3PyXfD_3ZsaxT-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-26" value="Desligar led esquerda" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="f52dHtj3PyXfD_3ZsaxT-32" target="f52dHtj3PyXfD_3ZsaxT-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f52dHtj3PyXfD_3ZsaxT-32" target="a_Pjl2reFtKb62zF3UzW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-32" value="Definir função piscarLEDdireita()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f52dHtj3PyXfD_3ZsaxT-34" target="f52dHtj3PyXfD_3ZsaxT-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-34" value="Ligar led direita" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f52dHtj3PyXfD_3ZsaxT-36" target="f52dHtj3PyXfD_3ZsaxT-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-36" value="Definir delay de 100 ms" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="f52dHtj3PyXfD_3ZsaxT-38" target="f52dHtj3PyXfD_3ZsaxT-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-38" value="Desligar led direita" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f52dHtj3PyXfD_3ZsaxT-44" target="a_Pjl2reFtKb62zF3UzW-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-44" value="Ler botão da esquerda" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f52dHtj3PyXfD_3ZsaxT-47" target="otuZY_AYLzR0uywKyyOZ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-47" value="chamar função mostrarDisplay();" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353.5" y="2280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f52dHtj3PyXfD_3ZsaxT-51" target="f52dHtj3PyXfD_3ZsaxT-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-51" value="Se o&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;botão&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;da&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;direita&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;estiver pressionado&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;e a posicao&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;for menor&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;que 20&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="337.75" y="2480" width="152.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f52dHtj3PyXfD_3ZsaxT-53" target="f52dHtj3PyXfD_3ZsaxT-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-53" value="incrementar posicao 1 número" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="2650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f52dHtj3PyXfD_3ZsaxT-55" target="f52dHtj3PyXfD_3ZsaxT-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-55" value="chamar função piscarLEDdireita();" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="2750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="f52dHtj3PyXfD_3ZsaxT-56" target="a_Pjl2reFtKb62zF3UzW-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="415" y="3050" />
+              <mxPoint x="260" y="3050" />
+              <mxPoint x="260" y="1730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-56" value="Definir delay de&lt;div&gt;500 ms&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="2950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-57" value="verdadeiro" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="416" y="2610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f52dHtj3PyXfD_3ZsaxT-59" target="f52dHtj3PyXfD_3ZsaxT-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f52dHtj3PyXfD_3ZsaxT-59" value="chamar função mostrarDisplay();" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354.5" y="2850" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

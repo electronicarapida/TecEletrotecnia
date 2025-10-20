@@ -1,0 +1,154 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Página-1" id="39EhbuIrulykOcw0N1K1">
+    <mxGraphModel dx="710" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="audo3bTXDJTPJRiGl3ov-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="audo3bTXDJTPJRiGl3ov-1" target="audo3bTXDJTPJRiGl3ov-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-1" value="Início" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="audo3bTXDJTPJRiGl3ov-2" target="audo3bTXDJTPJRiGl3ov-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-2" value="&lt;div&gt;Declarar&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;variáveis:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;temperatura_lida = 10&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;temperatura_maxima = 5&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;temperatura_minima = 2&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;botao_arranque_1 = 1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;botao_arranque_2 = 1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sobrecarga = 10&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="336" y="160" width="156" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="audo3bTXDJTPJRiGl3ov-4" target="audo3bTXDJTPJRiGl3ov-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-4" value="Inicializar monitor serial com valor de 115200 baud" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="audo3bTXDJTPJRiGl3ov-6" target="audo3bTXDJTPJRiGl3ov-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-6" value="Repetir sempre" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="audo3bTXDJTPJRiGl3ov-8" target="audo3bTXDJTPJRiGl3ov-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="audo3bTXDJTPJRiGl3ov-8" target="audo3bTXDJTPJRiGl3ov-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-8" value="&lt;div&gt;temperatura_lida &amp;gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;temperatura_maxima&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;?&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332" y="530" width="164" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="audo3bTXDJTPJRiGl3ov-10" target="audo3bTXDJTPJRiGl3ov-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-10" value="Escrever no monitor serial &quot;Ligar ventoinha&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="audo3bTXDJTPJRiGl3ov-11" target="audo3bTXDJTPJRiGl3ov-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-11" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Escrever no monitor serial &quot;Desligar ventoinha&quot;&lt;/span&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-14" value="Se sim" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="610" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-15" value="Se não" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="610" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="audo3bTXDJTPJRiGl3ov-18" target="audo3bTXDJTPJRiGl3ov-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="audo3bTXDJTPJRiGl3ov-18" target="audo3bTXDJTPJRiGl3ov-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-18" value="&lt;div&gt;temperatura_lida &amp;gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;temperatura_minima&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;?&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="331" y="750" width="164" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="audo3bTXDJTPJRiGl3ov-19" target="audo3bTXDJTPJRiGl3ov-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-19" value="Escrever no monitor serial &quot;Ligar esquentador&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="269" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="audo3bTXDJTPJRiGl3ov-20" target="audo3bTXDJTPJRiGl3ov-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-20" value="&lt;br&gt;&lt;div&gt;&lt;p&gt;&lt;span style=&quot;float: none; color: rgb(0, 0, 0); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); display: inline !important;&quot;&gt;Escrever no monitor serial &quot;Desligar esquentador&quot;&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="439" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-21" value="Se sim" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="339" y="830" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-22" value="Se não" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="429" y="830" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="audo3bTXDJTPJRiGl3ov-27" target="audo3bTXDJTPJRiGl3ov-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="audo3bTXDJTPJRiGl3ov-27" target="audo3bTXDJTPJRiGl3ov-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-27" value="&lt;div&gt;botao_arranque1 = 1 e botao_arranque2 = 1&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="970" width="164" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="audo3bTXDJTPJRiGl3ov-28" target="audo3bTXDJTPJRiGl3ov-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-28" value="Escrever no monitor serial &quot;Ligar máquina&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="268" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="audo3bTXDJTPJRiGl3ov-29" target="audo3bTXDJTPJRiGl3ov-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-29" value="&lt;br&gt;&lt;div&gt;&lt;p&gt;&lt;span style=&quot;float: none; color: rgb(0, 0, 0); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); display: inline !important;&quot;&gt;Escrever no monitor serial &quot;Desligar máquina&quot;&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="438" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-30" value="Se sim" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="338" y="1050" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-31" value="Se não" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="428" y="1050" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="audo3bTXDJTPJRiGl3ov-36" target="audo3bTXDJTPJRiGl3ov-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="audo3bTXDJTPJRiGl3ov-36" target="audo3bTXDJTPJRiGl3ov-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-36" value="&lt;div&gt;temperatura_lida &amp;gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;temperatura_maxima&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;ou sobrecarga = 10?&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="1190" width="164" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="audo3bTXDJTPJRiGl3ov-37" target="audo3bTXDJTPJRiGl3ov-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-37" value="Escrever no monitor serial &quot;Desligar máquina&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="267" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="audo3bTXDJTPJRiGl3ov-38" target="audo3bTXDJTPJRiGl3ov-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-38" value="&lt;br&gt;&lt;div&gt;&lt;p&gt;&lt;span style=&quot;float: none; color: rgb(0, 0, 0); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); display: inline !important;&quot;&gt;Escrever no monitor serial &quot;Ligar máquina&quot;&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="437" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-39" value="Se sim" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="337" y="1270" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-40" value="Se não" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="427" y="1270" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="audo3bTXDJTPJRiGl3ov-43" target="audo3bTXDJTPJRiGl3ov-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="411" y="1510" />
+              <mxPoint x="240" y="1510" />
+              <mxPoint x="240" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="audo3bTXDJTPJRiGl3ov-43" value="Definir delay de 100 ms" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
