@@ -1,0 +1,101 @@
+/*
+  ---------------------------------------------------------
+  Sensor de Proximidade com Relé e LCD 16x2 (I²C)
+  ---------------------------------------------------------
+  Função:
+   - Mede a distância com um sensor ultrassónico HC-SR04.
+   - Mostra o valor no LCD e na porta série.
+   - Liga o relé quando o objeto está abaixo da distância limite.
+   - Desliga o relé quando o objeto se afasta.
+
+  Autor: 6057 IEFP Mazagão.
+  Data: Outubro de 2025 — Versão 1.1
+  ---------------------------------------------------------
+  Ligações:
+   - TRIG → D9
+   - ECHO → D10
+   - RELE → D7
+   - LCD (I²C) → SDA (A4), SCL (A5) no Arduino UNO
+  ---------------------------------------------------------
+*/
+
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
+
+// Endereço típico do LCD I²C (pode ser 0x27 ou 0x3F)
+LiquidCrystal_I2C lcd(0x27, 16, 2);
+
+// Definição dos pinos do sensor ultrassónico
+#define TRIG_PIN 9
+#define ECHO_PIN 10
+
+// Pino de saída para comando do relé
+#define RELE_PIN 7
+
+// Distância limite (em centímetros) para ativação do relé
+#define DISTANCIA_LIMITE 35
+
+void setup() {
+  Serial.begin(9600);
+
+  // Configuração dos pinos
+  pinMode(TRIG_PIN, OUTPUT);
+  pinMode(ECHO_PIN, INPUT);
+  pinMode(RELE_PIN, OUTPUT);
+
+  digitalWrite(RELE_PIN, LOW);  // Garante relé desligado no arranque
+
+  // Inicialização do LCD
+  lcd.init();
+  lcd.backlight();
+  lcd.setCursor(0, 0);
+  lcd.print("Atuador Proximidade ");
+  lcd.setCursor(0, 1);
+  lcd.print("Mazagao. 2025");
+  delay(1500);
+  lcd.clear();
+
+  Serial.println("Sistema de Proximidade iniciado...");
+}
+
+void loop() {
+  // Gera o pulso de disparo (TRIG)
+  digitalWrite(TRIG_PIN, LOW);
+  delayMicroseconds(2);
+  digitalWrite(TRIG_PIN, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(TRIG_PIN, LOW);
+
+  // Mede o tempo (em microssegundos) até ao eco retornar
+  long duracao = pulseIn(ECHO_PIN, HIGH, 30000); // timeout 30ms (~5m)
+
+  // Calcula a distância em centímetros (som = 0,034 cm/µs)
+  long distancia = duracao * 0.034 / 2;
+
+  // Mostra a distância na porta série
+  Serial.print("Distancia: ");
+  Serial.print(distancia);
+  Serial.println(" cm");
+
+  // Atualiza o LCD
+  lcd.clear();
+  lcd.setCursor(0, 0);
+  lcd.print("Dist: ");
+  lcd.print(distancia);
+  lcd.print(" cm");
+
+  // Controlo do relé conforme distância medida
+  if (distancia > 0 && distancia <= DISTANCIA_LIMITE) {
+    digitalWrite(RELE_PIN, HIGH);
+    lcd.setCursor(0, 1);
+    lcd.print("Rele: ON ");
+    Serial.println("Objeto proximo, Rele ligado");
+  } else {
+    digitalWrite(RELE_PIN, LOW);
+    lcd.setCursor(0, 1);
+    lcd.print("Rele: OFF");
+    Serial.println("Sem objeto, Rele desligado");
+  }
+
+  delay(500); // Pequeno atraso antes da próxima leitura
+}
