@@ -1,0 +1,4 @@
+no circuito de ponte de retificação de 4 leds, o C3 e o C5 não são necessários, só em projetos profissionais
+
+menos do condensador para o menos da ponte retificadora e o mais para o mais da ponte retificadora
+
