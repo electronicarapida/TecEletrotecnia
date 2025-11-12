@@ -1,0 +1,6 @@
+condensador acoplamento e desacoplamento para filtrar ruídos nas portas lógicas
+resistências de 0 ohms servem para dar saltos para servir como fios…
+transistor ecp sot23 ou bc547->to92
+diodo de proteção
+diodo 1n4001
+relay g5v1
